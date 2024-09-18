@@ -1,0 +1,98 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+    Author: GuoJinhao
+    Date: 9.16 
+   
+   Filename: lake_styles.css
+
+*/
+header > nav {
+    background-color:#794163;
+}
+
+footer{
+   background-color: #333;
+   color: #ddd;
+}
+
+:link{
+   color: #988898;
+}
+:visited{
+   color: #988898;
+}
+
+#leftcol :link{
+   color: pink;
+}
+
+#leftcol :visited{
+   color: pink;
+}
+
+:hover{
+   color: #ece6ecc5;
+}
+
+body{
+   background-color: #c9c970;
+}
+
+#leftcol{
+   background-color: black;
+   color: #ddd;
+}
+
+.leftpart{
+   background-color: #ff8892;
+}
+
+.rightpart{
+   background-color: #cfb843;
+   padding: 10px;
+}
+
+.leftpart h1{
+   text-align: center;
+}
+
+.rightpart h1{
+   text-align: center;
+}
+
+.rightpart h2{
+   font-size: 20px;
+}
+
+#rightcol{
+   background: rgb(75, 0, 75);
+   color: #ddd;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(cac_champagne.woff);
+}
+
+#leftcol .Welcome{
+   font-family: myFirstFont;
+   font-size: 50px;
+}
+
+#leftcol h1{
+   font-size: 25px;
+}
+
+#rightcol h2{
+   font-family: myFirstFont;
+   font-size: 40px;
+}
+
+#rightcol q{
+   color: plum;
+}
